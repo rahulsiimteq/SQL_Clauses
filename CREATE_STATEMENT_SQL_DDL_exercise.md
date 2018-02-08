@@ -172,7 +172,7 @@ mysql> desc jobs;
     CREATE TABLE `job_history`(
     	`employee_id` INT,
     	`start_date` DATE,
-    	`end_date` DATE FORMAT 'DD/MM/YYYY',
+    	`end_date` DATE NOT NULL CHECK(`end_date` LIKE `--/--/----`),
     	`job_id` INT,
     	`department_id` INT
     	);
