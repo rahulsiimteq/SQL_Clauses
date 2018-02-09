@@ -575,7 +575,7 @@ mysql> select * from employee;
 |           1 | rahul         |             1 |          1 |      1 |
 +-------------+---------------+---------------+------------+--------+
 ```
-``error when department_id or job_id not availabe in departments table``
+``error when department_id or job_id not availabe in departments table or jobs table``
 ```SQL
 mysql> INSERT INTO employee VALUES(2,'Rahul',2,3,2);
 ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dml`.`employee`, CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`))
