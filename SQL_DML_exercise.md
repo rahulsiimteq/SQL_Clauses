@@ -15,7 +15,7 @@
 ### Excersise :
 
 #### 1. Write a SQL statement to insert a record with your own value into the table countries against each columns.
-```no-highlight
+```SQL
 Here in the following is the structure of the table countries.
 
 +--------------+---------------+------+-----+---------+-------+
@@ -27,11 +27,11 @@ Here in the following is the structure of the table countries.
 +--------------+---------------+------+-----+---------+-------+
 ```
 #### Answer :-  
- ```no-highlight
+```SQL
 INSERT INTO countries values(1,'india',1);
-        ```
+```
 #### Output :
-```no-highlight
+```SQL
 mysql> select * from countries;
 +------------+--------------+-----------+
 | COUNTRY_ID | COUNTRY_NAME | REGION_ID |
