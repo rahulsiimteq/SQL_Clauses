@@ -2,14 +2,14 @@
 
 #### Data Manipulation Language (DML) which deals with data manipulation and is used to store, modify, retrieve, delete and update data in a database.
 
-* `SELECT` - [retrieve data from a database]()
+* `SELECT` - [retrieve data from a database](https://www.w3schools.com/sql/sql_select.asp)
 * `INSERT` - [insert data into a table](https://www.w3schools.com/sql/sql_insert.asp)
-* `UPDATE` -[updates existing data within a table]()
-* `DELETE` - [Delete all records from a database table]()
-* `MERGE` - [UPSERT operation (insert or update)]()
+* `UPDATE` -[updates existing data within a table](https://www.w3schools.com/sql/sql_update.asp)
+* `DELETE` - [Delete all records from a database table](https://www.w3schools.com/sql/sql_delete.asp)
+* `MERGE` - [UPSERT operation (insert or update)](https://www.roseindia.net/sql/sql-functions/mysql-merge-statement.shtml)
 * `CALL` - [call a PL/SQL or Java subprogram]()
-* `EXPLAIN PLAN` - [interpretation of the data access path]()
-* `LOCK TABLE` - [concurrency Control]()
+* `EXPLAIN PLAN` - [interpretation of the data access path](https://www.sitepoint.com/using-explain-to-write-better-mysql-queries/)
+* `LOCK TABLE` - [concurrency Control](http://www.mysqltutorial.org/mysql-table-locking/)
 
 
 ### Excersise :
