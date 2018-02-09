@@ -52,9 +52,9 @@ Here in the following is the structure of the table countries.
 +--------------+---------------+------+-----+---------+-------+
 ```
 #### Answer :-  
- ```SQL
+```SQL
 INSERT INTO countries(COUNTRY_ID, COUNTRY_NAME) values(2,'AUS');
-    ```
+```
 #### Output :
 ```SQL
     mysql> SELECT * FROM countries;
@@ -83,7 +83,7 @@ Here in the following is the structure of the table countries.
  CREATE TABLE country_new AS select * from countries;
 ```
 #### Output :
- ```SQL
+```SQL
  mysql> select * from country_new;
 +------------+--------------+-----------+
 | COUNTRY_ID | COUNTRY_NAME | REGION_ID |
@@ -95,9 +95,9 @@ Here in the following is the structure of the table countries.
 #### 4. Write a SQL statement to insert NULL values against region_id column for a row of countries table.
 
 #### Answer :-
- ```SQL
+```SQL
  INSERT INTO countries values(3,'Brazil',NULL);
- ```
+```
 #### Output :
 ```SQL
 mysql> select * from countries;
